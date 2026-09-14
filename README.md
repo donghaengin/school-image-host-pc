@@ -1,11 +1,17 @@
-# School Image Host
+# Companion Image Host
 
-`images/장소/상태_시간.png` 구조를 지원합니다.
+축약 경로 구조:
+- 장소: s=학교, a=폐교, h=집
+- 세부장소: c=교실, w=복도, t=계단, r=화장실
+- 시간: d=낮, n=밤
+- 캐릭터: sy=서유련
+- 상태: df=기본, th=고민
+
+파일명:
+`{time}_{character}_{state}.png`
 
 예:
-- images/교실/normal_day.png
-- images/복도/abandoned_night.png
-- images/계단/normal_day.png
-- images/화장실/normal_night.png
+`images/a/w/n_sy_th.png`
 
-이미지를 넣은 뒤 `manifest.js`에도 `장소/파일명`을 추가하면 사이트에 표시됩니다.
+직접 URL:
+`https://donghaengin.github.io/school-image-host-pc/images/a/w/n_sy_th.png`
